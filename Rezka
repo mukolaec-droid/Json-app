@@ -1,0 +1,69 @@
+{
+  "name": "Ivanovic Cinema",
+  "pages": [
+    {
+      "id": "home",
+      "title": "Головна",
+      "items": [
+        {
+          "title": "🎬 Фільми",
+          "action": "page",
+          "page": "movies"
+        },
+        {
+          "title": "📺 Серіали",
+          "action": "page",
+          "page": "series"
+        },
+        {
+          "title": "🔥 Новинки",
+          "action": "iframe",
+          "url": "https://rezka-ua.org/new"
+        },
+        {
+          "title": "🔎 Пошук",
+          "action": "iframe",
+          "url": "https://rezka-ua.org"
+        }
+      ]
+    },
+    {
+      "id": "movies",
+      "title": "Фільми",
+      "template": "poster",
+      "items": [
+        {
+          "title": "Фільм 1",
+          "image": "https://via.placeholder.com/300x450",
+          "action": "iframe",
+          "url": "https://rezka-ua.org/movie1"
+        },
+        {
+          "title": "Фільм 2",
+          "image": "https://via.placeholder.com/300x450",
+          "action": "iframe",
+          "url": "https://rezka-ua.org/movie2"
+        }
+      ]
+    },
+    {
+      "id": "series",
+      "title": "Серіали",
+      "template": "poster",
+      "items": [
+        {
+          "title": "Серіал 1",
+          "image": "https://via.placeholder.com/300x450",
+          "action": "iframe",
+          "url": "https://rezka-ua.org/series1"
+        },
+        {
+          "title": "Серіал 2",
+          "image": "https://via.placeholder.com/300x450",
+          "action": "iframe",
+          "url": "https://rezka-ua.org/series2"
+        }
+      ]
+    }
+  ]
+}
